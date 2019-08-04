@@ -5,7 +5,7 @@ title: devilzhang0
 <ul class="posts">
     {% for post in paginator.posts %}
     <li class="post">
-        <small>{{ post.date | date_to_string }} ss</small>
+        <small>{{ post.date | date_to_string }}</small>
         <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
         <br>
         <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
