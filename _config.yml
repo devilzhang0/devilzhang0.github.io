@@ -14,7 +14,7 @@ highlighter: rouge
 #
 title : blog
 tagline: Code, Science, Philosophy, Humor
-author : zz
+author :
   name : devilzhang0
   email : devilzhang0@gmail.com
   github : devilzhang0
@@ -82,9 +82,9 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider :
     disqus :
-      short_name : nagekar
+      short_name : 
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
